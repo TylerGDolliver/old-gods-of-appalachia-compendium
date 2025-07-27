@@ -1,45 +1,45 @@
 {
-    "id": "old-gods-of-appalachia-compendium",
-    "name": "old-gods-of-appalachia-compendium",
-    "title": "Old Gods of Appalachia Compendium",
-    "description": "A collection of my content.",
-    "version": "1.1.0",
-    "authors": [
-        {
-            "name": "Tyler Dolliver",
-            "discord": "Twitawitz#7287"
-        }
-    ],
-    "minimumCoreVersion": "9",
-    "compatibleCoreVersion": "12",
-    "compatibility": {
-        "minimum": "9",
-        "verified": "12"
+  "id": "old-gods-of-appalachia-compendium",
+  "name": "old-gods-of-appalachia-compendium",
+  "title": "Old Gods of Appalachia Compendium",
+  "description": "A collection of my content.",
+  "version": "1.1.0",
+  "authors": [
+    {
+      "name": "Tyler Dolliver",
+      "discord": "Twitawitz#7287"
+    }
+  ],
+  "minimumCoreVersion": "9",
+  "compatibleCoreVersion": "12",
+  "compatibility": {
+    "minimum": "9",
+    "verified": "12"
+  },
+  "packs": [
+    {
+      "name": "items",
+      "label": "Items",
+      "path": "./packs/items",
+      "type": "Item",
+      "system": "cyphersystem"
     },
-    "packs": [
-        {
-            "name": "items",
-            "label": "Items",
-            "path": "./packs/items",
-            "type": "Item",
-            "system": "cyphersystem"
-        },
-        {
-            "name": "artifacts",
-            "label": "Artifacts",
-            "path": "./packs/artifacts",
-            "type": "Item",
-            "system": "cyphersystem"
-        },
-        {
-            "name": "cyphers",
-            "label": "Cyphers",
-            "path": "./packs/cyphers",
-            "type": "Item",
-            "system": "cyphersystem"
-        }
-    ],
-    "packFolders": [
+    {
+      "name": "artifacts",
+      "label": "Artifacts",
+      "path": "./packs/artifacts",
+      "type": "Item",
+      "system": "cyphersystem"
+    },
+    {
+      "name": "cyphers",
+      "label": "Cyphers",
+      "path": "./packs/cyphers",
+      "type": "Item",
+      "system": "cyphersystem"
+    }
+  ],
+  "packFolders": [
     {
       "name": "Old Gods of Appalachia",
       "sorting": "a",
@@ -52,14 +52,14 @@
             "cyphers",
             "items"
           ],
-          "folders": [ ],
+          "folders": [],
           "color": null
         }
       ],
       "color": null,
-      "packs": [ ]
+      "packs": []
     }
   ],
-    "manifest": "https://raw.githubusercontent.com/TylerGDolliver/old-gods-of-appalachia-compendium/refs/heads/main/module.json",
-    "download": "https://github.com/TylerGDolliver/old-gods-of-appalachia-compendium/archive/refs/heads/main.zip"
-  }
+  "manifest": "https://raw.githubusercontent.com/TylerGDolliver/old-gods-of-appalachia-compendium/refs/heads/main/module.json",
+  "download": "https://github.com/TylerGDolliver/old-gods-of-appalachia-compendium/archive/refs/heads/main.zip"
+}
