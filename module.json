@@ -1,0 +1,65 @@
+{
+    "id": "old-gods-of-appalachia-compendium",
+    "name": "old-gods-of-appalachia-compendium",
+    "title": "Old Gods of Appalachia Compendium",
+    "description": "A collection of my content.",
+    "version": "1.1.0",
+    "authors": [
+        {
+            "name": "Tyler Dolliver",
+            "discord": "Twitawitz#7287"
+        }
+    ],
+    "minimumCoreVersion": "9",
+    "compatibleCoreVersion": "12",
+    "compatibility": {
+        "minimum": "9",
+        "verified": "12"
+    },
+    "packs": [
+        {
+            "name": "items",
+            "label": "Items",
+            "path": "./packs/items",
+            "type": "Item",
+            "system": "cyphersystem"
+        },
+        {
+            "name": "artifacts",
+            "label": "Artifacts",
+            "path": "./packs/artifacts",
+            "type": "Item",
+            "system": "cyphersystem"
+        },
+        {
+            "name": "cyphers",
+            "label": "Cyphers",
+            "path": "./packs/cyphers",
+            "type": "Item",
+            "system": "cyphersystem"
+        }
+    ],
+    "packFolders": [
+    {
+      "name": "Old Gods of Appalachia",
+      "sorting": "a",
+      "folders": [
+        {
+          "name": "Items",
+          "sorting": "m",
+          "packs": [
+            "artifacts",
+            "cyphers",
+            "items"
+          ],
+          "folders": [ ],
+          "color": null
+        }
+      ],
+      "color": null,
+      "packs": [ ]
+    }
+  ],
+    "manifest": "https://gitlab.com/encounterlibrary/my-content-module/-/raw/main/module.json",
+    "download": "https://gitlab.com/encounterlibrary/my-content-module/-/raw/main/my-content-module.zip"
+  }
