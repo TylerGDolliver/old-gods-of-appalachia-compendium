@@ -60,6 +60,6 @@
       "packs": [ ]
     }
   ],
-    "manifest": "https://gitlab.com/encounterlibrary/my-content-module/-/raw/main/module.json",
-    "download": "https://gitlab.com/encounterlibrary/my-content-module/-/raw/main/my-content-module.zip"
+    "manifest": "https://raw.githubusercontent.com/TylerGDolliver/old-gods-of-appalachia-compendium/refs/heads/main/module.json",
+    "download": "https://github.com/TylerGDolliver/old-gods-of-appalachia-compendium/archive/refs/heads/main.zip"
   }
