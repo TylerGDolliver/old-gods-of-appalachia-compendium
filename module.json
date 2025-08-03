@@ -52,7 +52,24 @@
             "cyphers",
             "items"
           ],
-          "folders": [],
+          "folders": [
+        {
+          "name": "Character Creation",
+          "sorting": "m",
+          "packs": [],
+          "folders": [ ],
+          "color": null
+        },
+        {
+          "name": "Creatures and NPCs",
+          "sorting": "a",
+          "packs": [
+            "Creatures"
+          ],
+          "folders": [ ],
+          "color": null
+        }
+          ],
           "color": null
         }
       ],
