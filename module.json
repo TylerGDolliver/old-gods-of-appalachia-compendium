@@ -37,6 +37,13 @@
       "path": "./packs/cyphers",
       "type": "Item",
       "system": "cyphersystem"
+    },
+    {
+      "name": "creatures",
+      "label": "Creatures",
+      "path": "./packs/creatures",
+      "type": "Actor",
+      "system": "cyphersystem"
     }
   ],
   "packFolders": [
